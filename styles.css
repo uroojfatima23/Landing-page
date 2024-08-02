@@ -1,0 +1,114 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Background image styling */
+body {
+    background-image: url('image/background.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+/* Specific font styles */
+.arsenal-sc-regular {
+    font-weight: 400;
+    font-style: normal;
+}
+.title .highlight2{
+    color: #000000;
+}
+
+
+.arsenal-sc-bold {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.arsenal-sc-regular-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.arsenal-sc-bold-italic {
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Logo styling */
+.logo {
+    height: 10rem;
+}
+
+/* Image styling */
+.image {
+    height: 75vh;
+    margin-left: 800px;
+    margin-top: -10vh;
+}
+
+/* Navigation styling */
+.nav {
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    margin-top: -34rem; /* Adjust as needed */
+    margin-left: 30rem; /* Adjust as needed */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: #000000;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li:last-child {
+    margin-right: 0;
+}
+
+.nav a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+.nav a:hover {
+    color: #8c49c7e7; 
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 0.5rem 1rem; 
+}
+
+/* Button styling */
+#butt1 {
+    margin-left: 200px;
+}
+
+/* Heading styling */
+#heading {
+    color:#8c49c7;
+    margin-top: 9rem;
+    margin-left: 4rem;
+    font-size: 1.6rem;
+}
+
+.title {
+    white-space: pre-line;
+}
